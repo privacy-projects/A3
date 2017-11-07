@@ -1,0 +1,51 @@
+<!--
+    created by Dawid Wowniuk
+-->
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_blacklist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.op_dfat.Fragment_blacklist">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/blacklistTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blacklistTitle"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchViewBlacklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/blackListInfo" />
+
+        <TextView
+            android:id="@+id/blackListInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="The number below each app name represents the score the app reached in a range from 0 to 100.\nA high score means that the app frequently uses permissions, when it is not supposed to do so and can thus be considered unsafe"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_below="@+id/blacklistTitle" />
+
+        <ListView
+            android:id="@+id/listViewBlacklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/searchViewBlacklist"/>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

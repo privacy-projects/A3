@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    created by Dawid Wowniuk
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id ="@+id/settings"
+        android:title="@string/settings"
+        android:onClick="settingsButton"
+        />
+    <item
+        android:id ="@+id/appsToScan"
+        android:title="@string/appsToScan"
+        android:onClick="getAppsToScan"
+        />
+    <item
+        android:id ="@+id/impressum"
+        android:title="@string/impressum"
+        android:onClick="getAboutUs"
+        />
+    <item
+        android:id ="@+id/hilfe"
+        android:title="@string/help"
+        android:onClick="getHelp"
+        />
+
+</menu>

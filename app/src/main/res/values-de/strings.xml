@@ -1,0 +1,314 @@
+<!-- Created by Michael Krapp, Dawid Wowniuk -->
+
+<resources>
+    <string name="app_name">A3</string>
+    <string name="permissionNotificationTitle">Berechtigungs Informationen</string>
+    <string name="permissionNotificationMessage">Danke für das Nutzen unserer App!\n\n
+        Damit unsere App wie vorgesehen funktioniert, brauchen wir folgende Berechtigungen:\n\t
+        Berechtigung zum Scannen der Nutzungsdaten ihres Handys, damit wir sehen können, welche Apps momentan laufen etc…\n\t
+        Berechtigung zum Scannen welche Apps installiert sind und welche Berechtigungen bei diesen gesetzt sind.</string>
+    <string name="permissionNotificationPositive">Ich stimme zu!</string>
+    <string name="settings">Einstellungen</string>
+    <string name="impressum">Impressum</string>
+    <string name="yes">Ja</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="help">Hilfe</string>
+    <string name="appsToScan">Apps im Scan</string>
+    <string name="startScan">Scan starten</string>
+    <string name="stopScan">Scan stoppen</string>
+    <string name="toastStartScan">Scan gestartet</string>
+    <string name="toastStopScan">Scan gestoppt</string>
+    <string name="scanDuration">Scan-Dauer</string>
+    <string name="entriesFound">Gefundene Datensätze:</string>
+    <string name="automaticShutdownMessage">Scan automatisch gestoppt</string>
+    <string name="ProgressbarInfo">Scan gestartet…\nDrücken Sie den Button nochmal, um den Scan zu untersuchen\n\n
+        Hinweis:\nJe länger der Scan läuft, desto genauer ist das Ergebnis des Scans. Wir empfehlen eine Dauer von mindestens 60 Minuten.</string>
+    <string name="analysis">Analysieren</string>
+    <string name="history">Verlauf</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="searchViewHint">Hier suchen…</string>
+    <string name="analysisTextInfo">Wir sollten uns Gedanken machen was für ein Text hier stehen soll!</string>
+    <string name="searchButtonText">Suchen</string>
+    <string name="settingsInfo">Hier werden in Zukunft die einstellbaren Optionen angezeigt</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanListInfoText">Liste vergangener Scans</string>
+    <string name="appListInfoText">Liste der auffälligen Apps</string>
+    <string name="blacklistTitle">Blacklist</string>
+    <string name="noCheckboxSelectedTitle">Keine Ressourcen ausgewählt</string>
+    <string name="massReportResourceDialogTitle">Melden</string>
+    <string name="anomalousResourceDialogTitle">Begründung für die Markierung</string>
+    <string name="nonAnomalousResourceDialogTitle">Keine Anomalie entdeckt</string>
+    <string name="noCheckboxSelectedText">Bitte wählen Sie mindestens eine Ressource aus, die sie melden möchten</string>
+    <string name="massReportResourceDialogText">Sie können eine Erklärung eingeben, warum sie diese Ressourcen melden möchten:</string>
+    <string name="nonAnomalousStandardText">Sie können die Resource trotzdem melden und begründen warum!</string>
+    <string name="anomalousResourceDeReportText">Diese Ressource wurde als verdächtig gekennzeichnet. Mit einer optionalen
+        Begründung kann die Benutzung dieser Ressource als harmlos gemeldet werden"</string>
+    <string name="buttonReport">Melden</string>
+    <string name="buttonDeReport">DeReport</string>
+    <string name="buttonCancel">Abbrechen</string>
+    <string name="toastTransmissionConfirmation">Meldung erfolgreich abgeschickt</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="getScans">Drück mich!</string>
+    <string name="comingSoon">Hier wird gerade gebaut. Vorsicht Schlaglöcher!</string>
+    <string name="scan_successful">Scan erfolgreich abgeschlossen</string>
+    <string name="appsToScanTitle">Im Scan eingeschlossene Apps</string>
+    <string name="usageStatspermissionTitle">Berechtigungsanfrage</string>
+    <string name="usageStatspermissionText">DFAT muss im Laufe des Betriebs auf die App-Nutzungsstatistiken zugreifen,\n um deren Verhalten analysieren zu können\n\n
+                                            Ohne den Zugriff auf diese Statistiken kann DFAT nicht funktionieren\n\n</string>
+    <string name="usageStatsPositive">Erlauben </string>
+    <string name="usageStatsNegative">Ablehnen</string>
+    <string name="notificationInformationTitle">DFAT Scan-Informationen</string>
+    <string name="notificationInformationSucsess">Scan erfolgreich beendet</string>
+    <string name="notificationInformationSucsess1">Klicke auf diese Benachrichtigung, um die Ergebnisse anzuschauen</string>
+    <string name="notificationInformationScanning">Scan läuft…</string>
+    <string name="notificationInformationScanning1">Scan stoppt automatisch:</string>
+    <string name="notificationInformationScanning2">Klicke diese Benachrichtung, um DFAT zu öffnen</string>
+    <string name="activity_apps_loading">Scan-Ergebnis wird geladen…</string>
+    <string name="activity_apps_to_scan_loading">Installierte Apps werden geladen…</string>
+    <string name="loadingInfo">Lade-Informationen</string>
+    <string name="adapter_scans_confirmation_title">Bestätigung</string>
+    <string name="adapter_scans_confirmation">Möchten Sie diesen Scan wirklich löschen?</string>
+    <string name="blackListReceiver_fetchingBlackList">Black List wird gerade geladen</string>
+    <string name="blackListReceiver_errorFetching">Black List konnte nicht geladen werden\nÜberprüfen Sie bitte Ihre Internetverbindung</string>
+    <string name="expandableAdapter_permissions_used">Berechtigungen benutzt</string>
+    <string name="expandableAdapter_permission_used">Berechtigung benutzt</string>
+    <string name="noInternetConnection">Keine valide Internetverbindung vorhanden</string>
+    <string name="fragment_analyze_processing">Scan-Resultat wird ausgewertet …</string>
+    <string name="fragment_blackList_loadingBlackList">Black List wird geladen …</string>
+    <string name="dataSendToServer">Daten von letzten Scans wurden an den Server geschickt</string>
+    <string name="second">Sekunde</string>
+    <string name="seconds">Sekunden</string>
+    <string name="minutes">Minuten</string>
+    <string name="hour">Stunde</string>
+    <string name="hours">Stunden</string>
+    <string name="day">Tag</string>
+    <string name="days">Tage</string>
+    <string name="never">Niemals</string>
+    <string name="scanInterval">Scan-Intervall</string>
+    <string name="scanDeletionTime">Ältere Scans löschen</string>
+    <string name="scanOptions">Scan-Optionen</string>
+    <string name="ImpressumText"><![CDATA[
+        Angaben gemäß § 5 TMG:
+
+        <br />
+        <br />
+        Michael Krapp
+        <br />
+        Email:
+        michaelkrapp91@mail.de
+        <br />
+        <br />
+        <br />
+        Arrigo Paterno
+        <br />
+        Email:
+        arrigo.paterno@gmx.de
+        <br />
+        <br />
+        <br />
+        Dawid Wowniuk
+        <br />
+        Email:
+        wowniuk-dawid@web.de
+        <br />
+        <br />
+        <br />
+        Robin Dieges
+        <br />
+        Email:
+        robindieges@web.de
+        <br />
+        <br />
+        <br />
+        Marvin Duchmann
+        <br />
+        Email:
+        marvinduchmann@web.de
+        <br />
+        <br />
+        <br />
+        Daniel Mattes
+        <br />
+        Email:
+        mail@d-mattes.de
+        <br />
+        <br />
+        <br />
+
+        <h4>Haftungsausschluss (Disclaimer)</h4>
+        <br />
+        Haftung für Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
+        Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+        Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.
+        Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich.
+        Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+        <br />
+        <br />
+        <h4>Urheberrecht</h4> Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.
+        Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+        Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.
+        Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet.
+        Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis.
+        Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+
+        <br />
+        <br />
+        <cite>Quelle:  href="https://www.e-recht24.de">https://www.e-recht24.de</cite>
+
+        ]]> </string>
+
+
+    <string name="HelpText"><![CDATA[
+
+   <b> Use Case 1: </b>
+    <br />
+    <h1>Start der App (unbenutzte App)</h1>
+    <br />
+   - Beim ersten öffnen landen Sie beim Reiter "ANALYSIEREN"
+   <br />
+   - Sie können hier den Button "Scan starten" drücken -> <b>Weiter zu Use Case 2</b>
+   <br />
+
+   -Settings können oben am rechten Rand geöffnet werden:
+    <br />
+    Im Settings Menü haben Sie die möglichkeit 4 Menüpunkte auszuwählen:
+     <br />
+    <b> 1)Einstellungen (Scan Options)</b>:
+     <br />
+     -<b>Fixed Scan Period an/aus</b>:
+     <br />
+     Hier kann die Dauer des Scans bestimmt werden wie lange es laufen soll
+     <br />
+     -<b>Scan Intervall</b>: Hier kann man einen Scan Intervall bestimmen (1,3 oder 5 Sekunden)
+     <br />
+     -<b>Delete Older Scans</b>: Hier hat man die Möglichkeit ältere Scans löschen zu lassen, mit der Einstellungsmöglichkeit
+     (älter als 1 Woche, als 1 Monat, als 1 Jahr oder Nie)
+     <br />
+     <b>2)Apps im Scan </b>: Beim Klicken auf "Apps im Scan" werden alle Apps aufgelistet die im Scan mit eingeschlossen sind.
+     Hier hat man sogar die Möglichkeit vereinzelte Apps aus dem Scan auszuschließen, indem man das Häkchen in der Checkbox entfernt.
+     Außerdem ist noch eine Suchleiste eingerichtet, um nach vereinzelten Apps zu Suchen.
+     <br />
+     <b>3)Impressum </b>: Rechtskonformes Impressum mit allen Entwickler Namen und Email Adressen
+     <br />
+     <b>4) Hilfe </b>: Benutzer Hilfe um sich in der App zurechtzufinden
+     <br />
+     <br />
+     - <b>Reiter "Verlauf" auf dem Hauptbildschirm </b>: Hier werden alle vergangenen Scans angezeigt in dem Use case
+       noch leer.
+       <br />
+       <br />
+     - <b>Reiter "Blacklist" auf dem Hauptbildschirm </b>: Hier werden alle Apps aufgelistet die als Privatsphären verletzend
+       gelten vom User oder anderen Usern.
+       <br />
+       <br />
+       <br />
+
+     <b>Use Case 2: </b>
+     <br />
+     <h1>Öffnen mit laufender Analyse </h1>
+     <br />
+     -Bildschirm landet auf Reiter "Analysieren":Hier sieht man den Aktuellen Stand wie viele Datensätze gefunden wurden
+     und wie lange der Scan schon läuft.
+     <br />
+     -Settings können geöffnet werden(Siehe Use Case 1)
+     <br />
+     Button "Scan Stoppen" wird angezeigt-> Use Case 3
+     <br />
+     - Reiter "Verlauf" (Siehe Use Case 1)
+     <br />
+     -Reiter "Blacklist" (Siehe Use Case 1)
+      <br />
+      <br />
+      <br />
+
+      <b>Use Case 3: </b>
+      <br />
+      <h1>Öffnen ohne laufende Analyse</h1>
+      <br />
+      Sobald man den Scan gestoppt hat landet man auf der Seite "Liste der auffälligen Apps":
+      <br />
+      -Hier werden alle gefundenden Apps aufgelistet, die auffällig sind und es wird noch
+       die Ressource angezeigt auf die, die jeweillige App zugegriffen hat
+      <br />
+      -Man hat auch hier wieder eine Suchleiste um nach einer bestimmten App zu suchen
+      <br />
+      -Wenn man auf eine App jetzt klickt die auffällig ist, hat man die möglichkeit, die jeweilige
+       Ressource anzuklicken und per Kommentar an den Server zu schicken, indem man ganz einfach auf
+       den Melden Button klickt.
+
+       <br/>
+       <br/>
+
+       <h1>Wir wünschen Ihnen viel Spaß mit der App </h1>
+
+    ]]> </string>
+
+
+    <string name="OP_COARSE_LOCATION">Zugriff ungefährer Standort (Cell-ID,Wlan)</string>
+    <string name="OP_FINE_LOCATION">Zugriff auf GPS ermittelte Standort Daten</string>
+    <string name="OP_GPS">Zugriff auf GPS ermittelte Standort Daten</string>
+    <string name="OP_VIBRATE">Zugriff auf Vibrationsalarmsteuerung</string>
+    <string name="OP_READ_CONTACTS">Lesender Zugriff persönliche Kontaktdaten</string>
+    <string name="OP_WRITE_CONTACTS">Schreibender Zugriff persönliche Kontaktdaten</string>
+    <string name="OP_READ_CALL_LOG">Lesender Zugriff Anruf-Protokoll</string>
+    <string name="OP_WRITE_CALL_LOG">Schreibender Zugriff Anruf-Protokoll</string>
+    <string name="OP_READ_CALENDAR">Lesender Zugriff persönliche Kalendardaten</string>
+    <string name="OP_WRITE_CALENDAR">Schreibender Zugriff persönliche Kalendardaten</string>
+    <string name="OP_WIFI_SCAN">Zugriff auf den WLAN-Status</string>
+    <string name="OP_POST_NOTIFICATION">Zugriff auf die Benachrichtigungsfunktion</string>
+    <string name="OP_NEIGHBORING_CELLS">Zugriff auf Signalstärke und Standort(Cell-ID)</string>
+    <string name="OP_CALL_PHONE">Anruf ohne Bestätigung durch Anwender tätigen</string>
+    <string name="OP_READ_SMS">Lesender Zugriff auf SMS</string>
+    <string name="OP_WRITE_SMS">SMS schreiben aber nicht senden</string>
+    <string name="OP_RECEIVE_SMS">Eingehende SMS wird abgefangen</string>
+    <string name="OP_RECEIVE_EMERGECY_SMS">Eingehende Notfall-SMS wird abgefangen</string>
+    <string name="OP_RECEIVE_MMS">Eingehende MMS wird abgefangen</string>
+    <string name="OP_RECEIVE_WAP_PUSH">Erlaubt Empfang WAP Push Nachrichten</string>
+    <string name="OP_SEND_SMS">SMS senden ohne Benutzererlaubnis</string>
+    <string name="OP_READ_ICC_SMS">Eingehende ICC SMS wird abgefangen</string>
+    <string name="OP_WRITE_ICC_SMS">ICC SMS schreiben aber nicht senden</string>
+    <string name="OP_WRITE_SETTINGS">Lesen/Schreiben allgemeiner Systemeinstellungen</string>
+    <string name="OP_SYSTEM_ALERT_WINDOW">Fenster mit Systemwarnungen einblenden</string>
+    <string name="OP_ACCESS_NOTIFICATIONS">Zugriff auf Benachrichtigungen</string>
+    <string name="OP_CAMERA">Vollzugriff auf die Kamera</string>
+    <string name="OP_RECORD_AUDIO">Audiodaten aufnehmen</string>
+    <string name="OP_PLAY_AUDIO">Audiodaten abspielen</string>
+    <string name="OP_READ_CLIPBOARD">Lesezugriff auf Clipboard</string>
+    <string name="OP_WRITE_CLIPBOARD">Schreibezugriff auf CLipboard</string>
+    <string name="OP_TAKE_MEDIA_BUTTONS">Kontrolle externer Media-Button</string>
+    <string name="OP_TAKE_AUDIO_FOCUS">Kontrolle der Audiolautstärke(Audiooutput>=2)</string>
+    <string name="OP_AUDIO_MASTER_VOLUME">Verändernung der Master-Lautstärke</string>
+    <string name="OP_AUDIO_VOICE_VOLUME">Veränderung der Sprech-Lautstärke</string>
+    <string name="OP_AUDIO_RING_VOLUME">Veränderung der Klingelton-Lautstärke</string>
+    <string name="OP_AUDIO_MEDIA_VOLUME">Veränderung der Media-Lautstärke</string>
+    <string name="OP_AUDIO_ALARM_VOLUME">Veränderung der Alarmton-Lautstärke</string>
+    <string name="OP_AUDIO_NOTIFICATION_VOLUME">Veränderung Benachrichtigungston-Lautstärke</string>
+    <string name="OP_AUDIO_BLUETOOTH_VOLUME">Veränderung der Bluetooth-Lautstärke</string>
+    <string name="OP_WAKE_LOCK">App hindert System, in den Ruhemodus zu wechseln</string>
+    <string name="OP_MONITOR_LOCATION">Zugriff auf die Standortdaten</string>
+    <string name="OP_MONITOR_HIGH_POWER_LOCATION">Hochfrequenter Zugriff Standortdaten (GPS)</string>
+    <string name="OP_GET_USAGE_STATS">Zugriff Nutzungsstatistik aller Apps</string>
+    <string name="OP_MUTE_MICROPHONE">Das Microfon stumm stellen</string>
+    <string name="OP_TOAST_WINDOW">Senden Benachrichtigung unteren Bildschirmrand</string>
+    <string name="OP_PROJECT_MEDIA">Erfasse Displayinhalt und/oder Audio</string>
+    <string name="OP_ACTIVATE_VPN">VPN aktivieren ohne Benutzerzustimmung</string>
+    <string name="OP_WRITE_WALLPAPER">Veränderung des Hintergrundbildes</string>
+    <string name="OP_ASSIST_STRUCTURE">Empfange Hilfsstruktur von App</string>
+    <string name="OP_ASSIST_SCREENSHOT">Empfange Screenshot von der Hilfe</string>
+    <string name="OP_READ_PHONE_STATE">Zugriff Telefonfunktionen des Gerätes</string>
+    <string name="OP_ADD_VOICEMAIL">Erlaubt System Sprachnachrichten hinzuzufügen</string>
+    <string name="OP_USE_SIP">App benutzt Internet-Telefonie</string>
+    <string name="OP_PROCESS_OUTGOING_CALLS">Ausgehende Anrufe beobachten/verändern/abbrechen</string>
+    <string name="OP_USE_FINGERPRINT">Erlaubt App Nutzung von Fingerprint-Hardware</string>
+    <string name="OP_BODY_SENSORS">Erlaubt App Zugriff auf Daten von Körpersensoren</string>
+    <string name="OP_READ_CELL_BROADCASTS">Lese ältere empfangene CellBroadCast Nachrichten</string>
+    <string name="OP_MOCK_LOCATION">Zugriff auf falsche Standortquellen</string>
+    <string name="OP_READ_EXTERNAL_STORAGE">Lesezugriff auf externe Speichermedien</string>
+    <string name="OP_WRITE_EXTERNAL_STORAGE">Schreibzugriff auf externe Speichermedien</string>
+    <string name="OP_TURN_SCREEN_ON">Bildschirm einschalten</string>
+    <string name="OP_GET_ACCOUNTS">App ruft Liste konfigurierter Accounts ab</string>
+    <string name="OP_RUN_IN_BACKGROUND">App läuft im Hintergrund</string>
+
+
+</resources>

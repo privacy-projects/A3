@@ -1,0 +1,38 @@
+<!--
+    created by Dawid Wowniuk
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.op_dfat.Fragment_history">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/scanListInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scanListInfoText"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <SearchView
+            android:id="@+id/searchViewScans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scanListInfoTextView"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:id="@+id/listViewScans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchViewScans"
+            android:focusable="false"/>
+
+    </RelativeLayout>
+</FrameLayout>

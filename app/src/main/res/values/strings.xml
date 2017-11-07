@@ -1,0 +1,274 @@
+<!-- Created by Michael Krapp, Dawid Wowniuk -->
+
+
+<resources>
+    <string name="app_name">A³</string>
+    <string name="permissionNotificationTitle">Permission Usage Info</string>
+    <string name="permissionNotificationMessage">Thank you for using our app!
+        In order for our App to work properly, we need the following permissions:\n\t
+        Permission to scan your phone\'s usage stats, so we can check which apps are currently running etc..\n\t
+        Permission to scan which of your installed apps use what permission at a certain point\n\n
+        </string>
+    <string name="permissionNotificationPositive">I\'m OK with that</string>
+    <string name="settings">Settings</string>
+    <string name="impressum">About us</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="help">Help</string>
+    <string name="appsToScan">Apps to scan</string>
+    <string name="startScan">Start Scan</string>
+    <string name="stopScan">Stop Scan</string>
+    <string name="toastStartScan">Scan started</string>
+    <string name="toastStopScan">Scan stopped</string>
+    <string name="scanDuration">Scan Duration</string>
+    <string name="entriesFound">Entries found:</string>
+    <string name="automaticShutdownMessage">Scan automatically stopped</string>
+    <string name="ProgressbarInfo">Analyzing…\nPress the button again to evaluate the analysis\n\n
+        Hint:\nThe longer the duration of the scan, the more detailed the scan. We recommend a duration of at least 60 minutes.</string>
+    <string name="analysis">Analyze</string>
+    <string name="history">History</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="searchViewHint">Search here…</string>
+    <string name="analysisTextInfo">We should really think about, what text to put here!</string>
+    <string name="searchButtonText">Search</string>
+    <string name="settingsInfo">There will be options displayed here</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanListInfoText">List of past scans</string>
+    <string name="appListInfoText">List of suspicious apps</string>
+    <string name="blacklistTitle">Blacklist</string>
+    <string name="noCheckboxSelectedTitle">No resources selected</string>
+    <string name="massReportResourceDialogTitle">Report</string>
+    <string name="anomalousResourceDialogTitle">Reason why this resource may be anomalous</string>
+    <string name="nonAnomalousResourceDialogTitle">No anomaly found</string>
+    <string name="noCheckboxSelectedText">Please select at least one resource that you want to report</string>
+    <string name="massReportResourceDialogText">You can give an explanation to why you want to report these resources:</string>
+    <string name="nonAnomalousStandardText">You can still report the resource and explain why!</string>
+    <string name="anomalousResourceDeReportText">This resource was marked as anomalous. With an optional explanation
+        you can report this app as normal.</string>
+    <string name="buttonReport">Report</string>
+    <string name="buttonDeReport">DeReport</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="toastTransmissionConfirmation">Report successfully transmitted</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="getScans">Click me!</string>
+    <string name="comingSoon">Under Construction</string>
+    <string name="scan_successful">Scan was successful</string>
+    <string name="appsToScanTitle">Apps included in the scan</string>
+    <string name="usageStatspermissionTitle">Permission Request</string>
+    <string name="usageStatspermissionText">A³ needs to access the app usage statistics of your phone during operation\n to analyze the behavior of all your installed apps\n\n
+                                            We cannot evaluate the behavior of your apps without the access to the app usage statistics\n\n</string>
+    <string name="usageStatsPositive">Grant Permission</string>
+    <string name="usageStatsNegative">Decline</string>
+    <string name="notificationInformationTitle">A³ Scan Information</string>
+    <string name="notificationInformationSucsess">Scan was successful</string>
+    <string name="notificationInformationSucsess1">Press Notification to show the results</string>
+    <string name="notificationInformationScanning">Scanning…</string>
+    <string name="notificationInformationScanning1">Scan automatically stops:</string>
+    <string name="notificationInformationScanning2">Press Notification to open A³</string>
+    <string name="activity_apps_loading">Loading scan result…</string>
+    <string name="activity_apps_to_scan_loading">Loading installed apps…</string>
+    <string name="loadingInfo">Loading Info</string>
+    <string name="adapter_scans_confirmation_title">Confirmation</string>
+    <string name="adapter_scans_confirmation">Do you really want to delete this scan?</string>
+    <string name="blackListReceiver_fetchingBlackList">Already fetching Black List</string>
+    <string name="blackListReceiver_errorFetching">Black List could not be fetched!\nNo valid internet connection</string>
+    <string name="expandableAdapter_permissions_used">permissions used</string>
+    <string name="expandableAdapter_permission_used">permission used</string>
+    <string name="noInternetConnection">No valid internet connection</string>
+    <string name="fragment_analyze_processing">Processing data …</string>
+    <string name="fragment_blackList_loadingBlackList">Loading Black List …</string>
+    <string name="dataSendToServer">Data from previous scans has been sent to server</string>
+    <string name="second">Second</string>
+    <string name="seconds">Seconds</string>
+    <string name="minutes">Minutes</string>
+    <string name="hour">Hour</string>
+    <string name="hours">Hours</string>
+    <string name="day">Day</string>
+    <string name="days">Days</string>
+    <string name="never">Never</string>
+    <string name="scanInterval">Scan Interval</string>
+    <string name="scanDeletionTime">Delete Older Scans</string>
+    <string name="scanOptions">Scan Options</string>
+    <string name="wifiOnlyTitle">Wifi only</string>
+    <string name="wifiOnlyExplanation">Networking, only when connected to a Wifi network</string>
+    <string name="ImpressumText"><![CDATA[
+
+A3 is a FREE app for Android that shows you how installed apps use and
+potentially abuse your personal information.
+A3 provides you a with hints about what your installed apps are doing in
+the background which can threaten your privacy. Should you have any
+questions regarding how A3 works, please contact us privacy.us@m-chair.de
+<br/>
+<br/>
+The early prototype and initial idea has been implemented by Majid
+Hatamian (majid.hatamian@m-chair.de).<br/>
+First functional prototype which included the rule engine was developed
+by the students of the RheinMain University of Applied Sciences as part
+of the \'Privacy in Smartphone Ecosystems\' project seminar:<br/>
+- A. Paterno (arrigo.paterno@gmx.de)<br/>
+- D. Mattes (mail@d-mattes.de)<br/>
+- D. Wowniuk (wowniuk-dawid@web.de)<br/>
+- M. Duchmann (marvinduchmann@web.de)<br/>
+- M. Krapp (michaelkrapp91@mail.de)<br/>
+- R. Dieges (robindieges@web.de)<br/>
+<br/>
+Current version has been developed by Majid Hatamian, Roberto Morales
+(ooso.dev@gmail.com), and Jetzabel Serna (jetzabel.serna@m-chair.de).<br/>
+<br/>
+This research project has been supervised by Prof. Dr. Igler
+(bodo.igler@hs-rm.de) and Dr. Serna, and it has been partly funded by
+the EU project Privacy&Us under the grant agreement No 675730.
+
+]]> </string>
+
+    <string name="HelpText"><![CDATA[
+
+   <b> Use Case 1: </b>
+    <br />
+    <h1>Start der App (unbenutzte App)</h1>
+    <br />
+   - Beim ersten öffnen landen Sie beim Reiter "ANALYSIEREN"
+   <br />
+   - Sie können hier den Button "Scan starten" drücken -> <b>Weiter zu Use Case 2</b>
+   <br />
+
+   -Settings können oben am rechten Rand geöffnet werden:
+    <br />
+    Im Settings Menü haben Sie die möglichkeit 4 Menüpunkte auszuwählen:
+     <br />
+    <b> 1)Einstellungen (Scan Options)</b>:
+     <br />
+     -<b>Fixed Scan Period an/aus</b>:
+     <br />
+     Hier kann die Dauer des Scans bestimmt werden wie lange es laufen soll
+     <br />
+     -<b>Scan Intervall</b>: Hier kann man einen Scan Intervall bestimmen (1,3 oder 5 Sekunden)
+     <br />
+     -<b>Delete Older Scans</b>: Hier hat man die Möglichkeit ältere Scans löschen zu lassen, mit der Einstellungsmöglichkeit
+     (älter als 1 Woche, als 1 Monat, als 1 Jahr oder Nie)
+     <br />
+     <b>2)Apps im Scan </b>: Beim Klicken auf "Apps im Scan" werden alle Apps aufgelistet die im Scan mit eingeschlossen sind.
+     Hier hat man sogar die Möglichkeit vereinzelte Apps aus dem Scan auszuschließen, indem man das Häkchen in der Checkbox entfernt.
+     Außerdem ist noch eine Suchleiste eingerichtet, um nach vereinzelten Apps zu Suchen.
+     <br />
+     <b>3)Impressum </b>: Rechtskonformes Impressum mit allen Entwickler Namen und Email Adressen
+     <br />
+     <b>4) Hilfe </b>: Benutzer Hilfe um sich in der App zurechtzufinden
+     <br />
+     <br />
+     - <b>Reiter "Verlauf" auf dem Hauptbildschirm </b>: Hier werden alle vergangenen Scans angezeigt in dem Use case
+       noch leer.
+       <br />
+       <br />
+     - <b>Reiter "Blacklist" auf dem Hauptbildschirm </b>: Hier werden alle Apps aufgelistet die als Privatsphären verletzend
+       gelten vom User oder anderen Usern.
+       <br />
+       <br />
+       <br />
+
+     <b>Use Case 2: </b>
+     <br />
+     <h1>Öffnen mit laufender Analyse </h1>
+     <br />
+     -Bildschirm landet auf Reiter "Analysieren":Hier sieht man den Aktuellen Stand wie viele Datensätze gefunden wurden
+     und wie lange der Scan schon läuft.
+     <br />
+     -Settings können geöffnet werden(Siehe Use Case 1)
+     <br />
+     Button "Scan Stoppen" wird angezeigt-> Use Case 3
+     <br />
+     - Reiter "Verlauf" (Siehe Use Case 1)
+     <br />
+     -Reiter "Blacklist" (Siehe Use Case 1)
+      <br />
+      <br />
+      <br />
+
+      <b>Use Case 3: </b>
+      <br />
+      <h1>Öffnen ohne laufende Analyse</h1>
+      <br />
+      Sobald man den Scan gestoppt hat landet man auf der Seite "Liste der auffälligen Apps":
+      <br />
+      -Hier werden alle gefundenden Apps aufgelistet, die auffällig sind und es wird noch
+       die Ressource angezeigt auf die, die jeweillige App zugegriffen hat
+      <br />
+      -Man hat auch hier wieder eine Suchleiste um nach einer bestimmten App zu suchen
+      <br />
+      -Wenn man auf eine App jetzt klickt die auffällig ist, hat man die möglichkeit, die jeweilige
+       Ressource anzuklicken und per Kommentar an den Server zu schicken, indem man ganz einfach auf
+       den Melden Button klickt.
+
+       <br/>
+       <br/>
+
+       <h1>Wir wünschen Ihnen viel Spaß mit der App </h1>
+
+    ]]> </string>
+
+    <string name="OP_COARSE_LOCATION">Access to coarse location information.</string>
+    <string name="OP_FINE_LOCATION">Access to fine location information.</string>
+    <string name="OP_GPS">Causing GPS to run.</string>
+    <string name="OP_VIBRATE">Allows access to the vibrator</string>
+    <string name="OP_READ_CONTACTS">Allows an application to read the user\'s contacts data</string>
+    <string name="OP_WRITE_CONTACTS">Allows an application to write to the user\'s contacts data</string>
+    <string name="OP_READ_CALL_LOG">Allows an application to read the user\'s call log</string>
+    <string name="OP_WRITE_CALL_LOG">Allows an application to write to the user\'s call log</string>
+    <string name="OP_READ_CALENDAR">Allows an application to read the user\'s calendar data</string>
+    <string name="OP_WRITE_CALENDAR">Allows an application to write to the user\'s calendar data</string>
+    <string name="OP_WIFI_SCAN">Allows an application to scan for available WiFi</string>
+    <string name="OP_POST_NOTIFICATION">Allows an application to post notifications</string>
+    <string name="OP_NEIGHBORING_CELLS">-</string>
+    <string name="OP_CALL_PHONE">Allows an application to initiate a phone call.</string>
+    <string name="OP_READ_SMS">Allows an application to read SMS messages</string>
+    <string name="OP_WRITE_SMS">Allows an application to write SMS messages</string>
+    <string name="OP_RECEIVE_SMS">Allows an application to receive SMS messages</string>
+    <string name="OP_RECEIVE_EMERGECY_SMS">Allows an application to receive emergency SMS</string>
+    <string name="OP_RECEIVE_MMS">Allows an application to receive MMS messages</string>
+    <string name="OP_RECEIVE_WAP_PUSH">Allows an application to receive WAP push messages</string>
+    <string name="OP_SEND_SMS">Allows an application to send SMS messages</string>
+    <string name="OP_READ_ICC_SMS">-</string>
+    <string name="OP_WRITE_ICC_SMS">-</string>
+    <string name="OP_WRITE_SETTINGS">Required to write/modify/update system settings</string>
+    <string name="OP_SYSTEM_ALERT_WINDOW">Required to draw on top of other apps</string>
+    <string name="OP_ACCESS_NOTIFICATIONS">Allows an application to access notifications</string>
+    <string name="OP_CAMERA">Required to be able to access the camera device.</string>
+    <string name="OP_RECORD_AUDIO">Required to be able to access the microphone device</string>
+    <string name="OP_PLAY_AUDIO">Allows an application to play audio</string>
+    <string name="OP_READ_CLIPBOARD">Allows an application to read the clipboard</string>
+    <string name="OP_WRITE_CLIPBOARD">Allows an application to write clipboard</string>
+    <string name="OP_TAKE_MEDIA_BUTTONS">-</string>
+    <string name="OP_TAKE_AUDIO_FOCUS">-</string>
+    <string name="OP_AUDIO_MASTER_VOLUME">Allows an application to access the audio master volume</string>
+    <string name="OP_AUDIO_VOICE_VOLUME">Allows an application to access the audio voice volume</string>
+    <string name="OP_AUDIO_RING_VOLUME">Allows an application to access the audio ring volume</string>
+    <string name="OP_AUDIO_MEDIA_VOLUME">Allows an application to access the audio media volume</string>
+    <string name="OP_AUDIO_ALARM_VOLUME">Allows an application to access the audio alarm volume</string>
+    <string name="OP_AUDIO_NOTIFICATION_VOLUME">Allows an application to access the notification volume</string>
+    <string name="OP_AUDIO_BLUETOOTH_VOLUME">Allows an application to access  the bluetooth volume</string>
+    <string name="OP_WAKE_LOCK">Allows an application to acquire or release a wake lock</string>
+    <string name="OP_MONITOR_LOCATION">Continually monitoring location data.</string>
+    <string name="OP_MONITOR_HIGH_POWER_LOCATION">Continually monitoring location data with a relatively high power request.</string>
+    <string name="OP_GET_USAGE_STATS">Retrieve current usage stats via {@link UsageStatsManager}.</string>
+    <string name="OP_MUTE_MICROPHONE">-</string>
+    <string name="OP_TOAST_WINDOW">-</string>
+    <string name="OP_PROJECT_MEDIA">Capture the device\'s display contents and/or audio </string>
+    <string name="OP_ACTIVATE_VPN">Activate a VPN connection without user intervention.</string>
+    <string name="OP_WRITE_WALLPAPER">Access the WallpaperManagerAPI to write wallpapers.</string>
+    <string name="OP_ASSIST_STRUCTURE">Received the assist structure from an app.</string>
+    <string name="OP_ASSIST_SCREENSHOT">Received a screenshot from assist.</string>
+    <string name="OP_READ_PHONE_STATE">Read the phone state.</string>
+    <string name="OP_ADD_VOICEMAIL">Add voicemail messages to the voicemail content provider.</string>
+    <string name="OP_USE_SIP">Access APIs for SIP calling over VOIP or WiFi.</string>
+    <string name="OP_PROCESS_OUTGOING_CALLS">Intercept outgoing calls.</string>
+    <string name="OP_USE_FINGERPRINT">User the fingerprint API.</string>
+    <string name="OP_BODY_SENSORS">Access to body sensors such as heart rate, etc.</string>
+    <string name="OP_READ_CELL_BROADCASTS">Read previously received cell broadcast messages</string>
+    <string name="OP_MOCK_LOCATION">Inject mock location into the system</string>
+    <string name="OP_READ_EXTERNAL_STORAGE">Read external storage</string>
+    <string name="OP_WRITE_EXTERNAL_STORAGE">Write external storage</string>
+    <string name="OP_TURN_SCREEN_ON">Turns the screen on</string>
+    <string name="OP_GET_ACCOUNTS">Get device accounts.</string>
+    <string name="OP_RUN_IN_BACKGROUND">Control whether an application is allowed to run in the background.</string>
+</resources>

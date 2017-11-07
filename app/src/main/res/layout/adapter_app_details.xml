@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    created by Dawid Wowniuk
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toLeftOf="@+id/checkboxMassReport"
+        >
+
+        <TextView
+            android:id="@+id/resourceCount"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
+
+            android:text="10x"
+            android:textAppearance="@style/A3.TextAppearance.Medium" />
+
+        <TextView
+            android:id="@+id/resource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="2dp"
+            android:layout_toEndOf="@+id/resourceCount"
+            android:gravity="clip_horizontal"
+            android:maxLines="2"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="roberto antonio morales pacheco de todos los santos pa servirle a usted ya el senor."
+            android:textAppearance="@style/A3.TextAppearance.Medium" />
+    </LinearLayout>
+
+
+    <CheckBox
+        android:id="@+id/checkboxMassReport"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:theme="@style/A3.CheckboxStyle" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    created by Dawid Wowniuk
+-->
+<resources>
+    <color name="colorPrimary">#EE960E</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabText">#FFFFFF</color>
+    <color name="tabActive">#303F9F</color>
+    <color name="tabInactive">#3F51B5</color>
+</resources>

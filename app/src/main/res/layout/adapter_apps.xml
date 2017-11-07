@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    created by Dawid Wowniuk
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="6dip" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/appIcon"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/permissionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appName"
+            android:layout_toEndOf="@id/appIcon"
+            android:text=""
+            android:textAppearance="@style/A3.TextAppearance.Medium"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/reportButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:layout_below="@id/permissionCount"
+            android:layout_toEndOf="@id/appIcon"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/buttonReport"
+            android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/appAnomalyIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dip" />
+</RelativeLayout>
+
+    <!--android:layout_centerVertical="true"-->
+
+    <!--android:layout_alignTop="@+id/appIcon"-->
+    <!--android:layout_toStartOf="@+id/appAnomalyIcon"-->

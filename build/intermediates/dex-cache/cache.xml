@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rmorales/ooso/Personal/jetzabel/DFAT/dfat/GUIDummy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/rmorales/ooso/Personal/jetzabel/DFAT/dfat/GUIDummy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_625bb5e34faf3409e439fa9a359549db9571e8a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rmorales/ooso/Personal/jetzabel/DFAT/dfat/GUIDummy/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67c4dbc3860797271ba186e9bcedf2248f966e3e">
+        <dex dex="/Users/rmorales/ooso/Personal/jetzabel/DFAT/dfat/GUIDummy/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f5c96e269596774e3307ecfc966eaa1815c4c3e9/classes.dex" />
+    </item>
+
+</items>
